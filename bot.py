@@ -411,5 +411,6 @@ async def on_message(message):
     
     await bot.process_commands(message)
 
+access_token = os.enxiron["BOT_TOKEN"]
 # Run the bot
-bot.run(TOKEN)
+bot.run(access_token)
